@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+header {
+    background-color: rgb(68, 3, 129);
+    padding: 16px;
+    text-align: center;
+}
+header h1 {
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h2 {
+   color: blueviolet; 
+   text-align: center;
+   padding-top: 10px;
+   border-bottom: 2px solid;
+}
+
+#bookForm {
+    width: 900px;
+    border-radius: 8px;
+    margin: 16px;
+    background: #1a1b1b;
+    padding: 17px;
+    flex-grow: 1;
+    height: fit-content;
+    box-shadow: 5px 5px 50px rgb(68, 3, 129);
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.group label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+input[type=text], input[type=number] {
+    font-family: 'Poppins', sans-serif;
+    background: #3e3b44;
+    border-radius: 2px solid #9475EA;
+    padding: 7px;
+    width: 870px;
+}
+
+.bookFormIsComplete {
+    margin-top: 7px;
+    margin-right: 670px;
+}
+.bookFormIsComplete label {
+    font-size: 20px;
+}
+
+#bookFormSubmit {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: auto;
+    padding: 12px 24px;
+    border: 3px solid;
+    background-color: #85828b;
+    font-weight: bold;
+}
+#bookFormSubmit:hover {
+    background-color: blueviolet;
+}
+
+.incompleteBookList {
+    border-radius: 8px;
+    display: flex;
+   flex-direction: column;
+   background-color: #1a1b1b;
+   margin: 40px;
+   padding: 26px;
+}
+
+.completeBookList {
+    border-radius: 8px;
+    display: flex;
+   flex-direction: column;
+   background-color: #1a1b1b;
+   margin: 40px;
+   padding: 26px;
+}
